@@ -1,10 +1,16 @@
 # Welcome to GitHub
+apt update && apt upgrade 
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+git clone https://github.com/deep183/Deepak-ka-tool.git
+
+pkg install wget
+wget -O install-nethunter-termux https://offs.ec/2MceZWr
+chmod +x install-nethunter-termux
+./install-nethunter-termux
 
 ## Repositories
 
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
+
 
 This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
 
@@ -19,7 +25,7 @@ You are currently viewing your project's **README** file. **_README_** files are
 **GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
 
 [Learn more about GitHub Pages](https://pages.github.com/)
-
+6
 ## Rename this repository to publish your site
 
 We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
