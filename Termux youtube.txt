@@ -1,0 +1,15 @@
+commands for termux
+Edited and compiled by Dinker Chaudhary
+youtube.com/Dinkerchaudhary
+
+1. apt-get update && apt-get upgrade
+ 2. termux-setup-storage 
+3. pkg install python 
+pip install youtube-dl 
+4. mkdir /data/data/com.termux/files/home/storage/shared/Youtube 
+5. mkdir -p ~/.config/youtube-dl 
+6. apt-get install nano 
+7. nano ~/.config/youtube-dl/config 
+8. --no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s -f "best[height<=1080]" [replace the height<=1080 with 360, 480 or 720, etc to change resolution] [To Save "Volume-down" + O; then press Enter, and then exit nano with "Vol-down" + X]
+ 9. mkdir ~/bin cd ~/bin nano termux-url-opener 
+10. youtube-dl $1
